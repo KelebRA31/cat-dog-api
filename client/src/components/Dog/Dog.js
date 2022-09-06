@@ -51,7 +51,7 @@ function Dog() {
           >
             Next dog
           </LoadingButton>
-          <Button size="small">Dislike</Button>
+          <Button onClick={changeHandler} size="small">Dislike</Button>
 
         </CardActions>
       </Card>

@@ -23,6 +23,7 @@ function HomePage() {
     if (!like.includes(catImg[0])) {
       dispatch(addLike(catImg[0]));
     }
+    dispatch(getCatThunk());
   };
   return (
     <div className="containerCat">
@@ -50,7 +51,7 @@ function HomePage() {
           >
             Next cat
           </LoadingButton>
-          <Button size="small">Dislike</Button>
+          <Button onClick={changeHandler} size="small">Dislike</Button>
 
         </CardActions>
       </Card>
