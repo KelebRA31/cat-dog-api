@@ -1,0 +1,12 @@
+.containerCat {
+    height: 90vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+.catButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

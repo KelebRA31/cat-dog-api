@@ -1,0 +1,19 @@
+.containerLK {
+    height: 90vh;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+    flex-wrap: wrap;
+}
+
+.blockCat {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.LKButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
